@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 公共服务启动类
+ * @Desc: 配置中心启动类
  */
 @SpringBootApplication
-public class SpringCloudCommonApplication {
+public class SpringCloudConfigServerApplication {
     public static void main(String[] args){
-        SpringApplication.run(SpringCloudCommonApplication.class, args);
+        SpringApplication.run(SpringCloudConfigServerApplication.class, args);
     }
 }
