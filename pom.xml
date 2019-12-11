@@ -11,6 +11,7 @@
     <modules>
         <module>springcloudcommon</module>
         <module>springcloudconfigserver</module>
+        <module>wenauth</module>
     </modules>
 
     <properties>
