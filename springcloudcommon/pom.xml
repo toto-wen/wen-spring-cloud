@@ -11,5 +11,15 @@
 
     <artifactId>spring-cloud-common</artifactId>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.checkerframework</groupId>
+                    <artifactId>checker-qual</artifactId>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>
