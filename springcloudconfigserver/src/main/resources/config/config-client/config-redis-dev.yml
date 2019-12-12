@@ -1,0 +1,3 @@
+config:
+  redisName: redis
+  redisAge: 23

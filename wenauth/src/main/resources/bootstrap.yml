@@ -5,7 +5,7 @@ spring:
     name: config-client
   cloud:
    config:
-     name: config-client
+     name: config-client,config-redis
      profile: dev
-     uri: http://localhost:8888/
+     uri: http://localhost:8000/
      fail-fast: true
