@@ -1,9 +1,9 @@
 spring:
   application:
-    name: config-client
+    name: eureka-server
   cloud:
    config:
-     name: config-client,config-redis
+     name: eureka-config
      profile: dev
      uri: http://localhost:8000/
      fail-fast: true

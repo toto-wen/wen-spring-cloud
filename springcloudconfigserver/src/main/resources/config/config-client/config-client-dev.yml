@@ -1,3 +1,6 @@
+server:
+  port: 9000
+
 config:
   name: client
   age: 23

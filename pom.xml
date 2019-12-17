@@ -12,6 +12,7 @@
         <module>springcloudcommon</module>
         <module>springcloudconfigserver</module>
         <module>wenauth</module>
+        <module>weneureka</module>
     </modules>
 
     <properties>
@@ -59,14 +60,18 @@
         </dependency>
     </dependencies>
 
+
+
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring.plugin.version}</version>
-            </plugin>
-        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring.plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
 
