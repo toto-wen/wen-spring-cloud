@@ -3,7 +3,13 @@ spring:
     name: config-client
   cloud:
    config:
-     name: application,redis
+     name: application,redis, init-value
+     discovery:
+       service-id: config-server
+       enabled: true
      profile: dev
-     uri: http://localhost:8000/
-     fail-fast: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8400/eureka/
