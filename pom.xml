@@ -13,6 +13,7 @@
         <module>springcloudconfigserver</module>
         <module>wenauth</module>
         <module>weneureka</module>
+        <module>thread-pool</module>
     </modules>
 
     <properties>
